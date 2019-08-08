@@ -1,0 +1,44 @@
+.pagination
+{
+    margin: 0 auto;
+}
+
+.pagination a
+{
+    text-decoration: none;
+    color: #919191;
+    line-height: normal;
+}
+
+.pagination a, .pagination span
+{
+    display: block;
+    float: left;
+    padding: 0.3em 0.5em;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    min-width: 1em;
+    text-align: center;
+}
+
+.pagination .current
+{
+    font-weight: bold;
+    line-height: normal;
+}
+
+.pagination .current.prev, .pagination .current.next
+{
+    color: #919191;
+}
+
+.lnews {
+  margin-top:10px;
+}
+
+.lnews li{
+   list-style: disc;
+    margin-left: 12px;
+    line-height: 28px;
+    height: auto;
+}
